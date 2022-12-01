@@ -51,6 +51,12 @@
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MvcSiteMapProvider, Version=4.6.26.0, Culture=neutral, PublicKeyToken=1923abe4657913cc, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvcSiteMapProvider.MVC5.Core.4.6.26\lib\net45\MvcSiteMapProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="MvcSiteMapProvider.WebActivator, Version=4.6.26.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvcSiteMapProvider.MVC5.4.6.26\lib\net45\MvcSiteMapProvider.WebActivator.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,6 +73,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.0.1\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web.Razor">
@@ -95,6 +104,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\BackgroundGradient.jpg" />
+    <Content Include="Content\PhotoSharingStyles.css" />
+    <Content Include="Expression Web Mock Up\allphotos.html" />
+    <Content Include="Expression Web Mock Up\Content\BackgroundGradient.jpg" />
+    <Content Include="Expression Web Mock Up\Content\blackberries.JPG" />
+    <Content Include="Expression Web Mock Up\Content\coastalview.jpg" />
+    <Content Include="Expression Web Mock Up\Content\headland.jpg" />
+    <Content Include="Expression Web Mock Up\Content\PhotoSharingStyles.css" />
+    <Content Include="Expression Web Mock Up\Content\pontoon.JPG" />
+    <Content Include="Expression Web Mock Up\Content\track.JPG" />
+    <Content Include="Expression Web Mock Up\Content\_vti_cnf\blackberries.JPG" />
+    <Content Include="Expression Web Mock Up\Content\_vti_cnf\coastalview.jpg" />
+    <Content Include="Expression Web Mock Up\Content\_vti_cnf\headland.jpg" />
+    <Content Include="Expression Web Mock Up\Content\_vti_cnf\PhotoSharingStyles.css" />
+    <Content Include="Expression Web Mock Up\Content\_vti_cnf\pontoon.JPG" />
+    <Content Include="Expression Web Mock Up\Content\_vti_cnf\track.JPG" />
+    <Content Include="Expression Web Mock Up\default.html" />
+    <Content Include="Expression Web Mock Up\Photo.html" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -132,6 +159,8 @@
     <Content Include="Views\Shared\_PhotoGallery.cshtml" />
     <Content Include="Views\Photo\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_MainLayout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
